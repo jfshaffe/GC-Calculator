@@ -1,0 +1,10 @@
+#enter DNA sequence as input
+def main():
+  dna = input("DNA sequence = ")
+  x = len(dna)
+  y = dna.upper()
+  z = y.count("G")
+  w = y.count("C")
+  q = ((z+w)/x)*100
+  print("GC % =", q,"%")
+main()
